@@ -1,5 +1,6 @@
-\contentsline {section}{\numberline {1}Calculus}{1}{}%
-\contentsline {subsection}{\numberline {1.1}Differentiation}{1}{}%
-\contentsline {subsection}{\numberline {1.2}Integration}{1}{}%
-\contentsline {section}{\numberline {2}Series}{1}{}%
-\contentsline {section}{\numberline {3}Multivariable Calculus}{1}{}%
+\contentsline {section}{\numberline {1}Calculus}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Differentiation}{2}{}%
+\contentsline {section}{\numberline {2}Series}{3}{}%
+\contentsline {section}{\numberline {3}Multivariable Calculus}{3}{}%
+\contentsline {section}{\numberline {4}Vector Calculus}{4}{}%
+\contentsline {section}{\numberline {5}Fluid Mechanics}{5}{}%
