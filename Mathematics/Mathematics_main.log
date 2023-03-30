@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.28)  29 MAR 2023 09:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.28)  30 MAR 2023 19:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -557,30 +557,39 @@ LaTeX Font Warning: Command \boldmath invalid in math mode on input line 12.
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 12.
 
 
-) [5
+<Images/Streamline.png, id=22, 197.73875pt x 124.96687pt>
+File: Images/Streamline.png Graphic file (type png)
+<use Images/Streamline.png>
+Package pdftex.def Info: Images/Streamline.png  used on input line 26.
+(pdftex.def)             Requested size: 172.5pt x 109.01776pt.
+[5
 
 
 
-] (Mathematics_main.aux (Calculus.aux) (Vector_calculus.aux)
-(Fluid_mechanics.aux)) ) 
+ <./Images/Streamline.png>]) [6] (Mathematics_main.aux (Calculus.aux)
+(Vector_calculus.aux) (Fluid_mechanics.aux)) ) 
 Here is how much of TeX's memory you used:
- 12584 strings out of 476334
- 262860 string characters out of 5787971
- 1853382 words of memory out of 5000000
- 32796 multiletter control sequences out of 15000+600000
- 517670 words of font info for 51 fonts, out of 8000000 for 9000
+ 12596 strings out of 476334
+ 263098 string characters out of 5787971
+ 1860382 words of memory out of 5000000
+ 32804 multiletter control sequences out of 15000+600000
+ 518016 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,6n,104p,418b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmbx10.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/olive/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/olive/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/olive/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ol
-ive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Mathematics_main.pdf (5 pages, 87664 bytes).
+ 102i,13n,104p,418b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/olive/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/olive/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/olive
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Us
+ers/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pf
+b><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr17.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Mathematics_main.pdf (6 pages, 147104 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
+ 72 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
