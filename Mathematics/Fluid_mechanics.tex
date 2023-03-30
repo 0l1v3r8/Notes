@@ -5,7 +5,7 @@
 \newline
 \newline
 \textbf{Eulerian} $(\underline{\boldmath{x}},t)$: 
-The \textit{'flow field' is considered as a whole} and the state of a fluid is described in terms of the values at a fixed location $\underline{\boldmath{x}}$ and at fixed time $t$
+The \textit{'flow field' is considered as a whole} and the state of a fluid is described in terms of the values at a fixed location $\underline{\boldmath{x}}$ and at a fixed time $t$
 \subsubsection{Velocity}
 In Cartesian coordinates the velocity of a fluid particle at position $\underline{\boldmath{x}}(x,y,z)$ is given by:
 \begin{center}
@@ -67,8 +67,28 @@ Particle path is obtained by solving the initial value problem:
 \textbf{Unsteady Flow}: $\underline{u}$ depends on $t$; the pattern of streamlines changes with $t$
 \subsubsection{Convective Derivative}
 The convective derivative tells us how a property changes \textit{as it moves with a flow}.
-
+\\
+\textbf{General}
+\begin{center}
+	\boxed{
+		\frac{D\mathbf{*}}{Dt} =  \frac{\partial\mathbf{*}}{\partial t} + (\underline{u} \cdot \nabla)\mathbf{*}=\frac{\partial\mathbf{*}}{\partial t} + u\frac{\partial\mathbf{*}}{\partial x}+ v\frac{\partial\mathbf{*}}{\partial y} + w\frac{\partial\mathbf{*}}{\partial z}}
+\end{center}
+\textbf{Scalar}
+\begin{center}
+	\boxed{
+		\frac{D\mathbf{\rho}}{Dt} =  \frac{\partial\mathbf{\rho}}{\partial t} + (\underline{u} \cdot \nabla)\mathbf{\rho} = \frac{\partial\mathbf{\rho}}{\partial t} + u\frac{\partial\mathbf{\rho}}{\partial x}+ v\frac{\partial\mathbf{\rho}}{\partial y} + w\frac{\partial\mathbf{\rho}}{\partial z}}
+\end{center}
+\textbf{Vector}
+\begin{center}
+	\boxed{
+		\frac{D\mathbf{\underline{u}}}{Dt} =  \frac{\partial\mathbf{\underline{u}}}{\partial t} + (\underline{u} \cdot \nabla)\mathbf{\underline{u}}= \frac{\partial\mathbf{\underline{u}}}{\partial t} + u\frac{\partial\mathbf{\underline{u}}}{\partial x}+ v\frac{\partial\mathbf{\underline{u}}}{\partial y} + w\frac{\partial\mathbf{\underline{u}}}{\partial z}}
+\end{center}
 \subsubsection{Vorticity}
+Vorticity \underline{$\omega$} is a measure of the local rotation of fluid particles in flow.
+\\
+\begin{center}
+	\boxed{\underline{\omega} = \nabla \times \underline{u}}
+\end{center}
 
 \subsection{Pressure in a Fluid}
 \subsection{Flow Dynamics}
