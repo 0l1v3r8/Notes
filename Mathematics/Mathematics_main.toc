@@ -4,3 +4,6 @@
 \contentsline {section}{\numberline {3}Multivariable Calculus}{3}{}%
 \contentsline {section}{\numberline {4}Vector Calculus}{4}{}%
 \contentsline {section}{\numberline {5}Fluid Mechanics}{5}{}%
+\contentsline {subsection}{\numberline {5.1}Kinematics}{5}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}Coordinates}{5}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}Velocity}{5}{}%
