@@ -89,7 +89,37 @@ Vorticity \underline{$\omega$} is a measure of the local rotation of fluid parti
 \begin{center}
 	\boxed{\underline{\omega} = \nabla \times \underline{u}}
 \end{center}
-
+\begin{center}
+	$\nabla \times \underline{u} = \begin{vmatrix}
+	\underline{i} & \underline{j} & \underline{k}\\ 
+	\frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z}\\
+	u & v & w 
+\end{vmatrix}$
+\end{center}
+\textbf{Irrotational Flow}:
+\\
+\begin{center}
+	\boxed{\underline{\omega} = \underline{0}}
+\end{center}
+\subsubsection{Velocity Potential}
+For an irrotational flow the velocity can be described as the gradient of a scalar field known as the \textit{Velocity Potential}.
+\begin{center}
+	$\nabla \times \underline{u} = 0$
+	\\
+	The curl of the gradient of a scalar field is zero:
+	\\
+	$\nabla \times (\nabla \phi) = 0$
+	\\
+	$\underline{u} = \nabla\phi$
+\end{center}
+\subsubsection{Incompressible Flow}
+\begin{center}
+	\boxed{\nabla \cdot \underline{u} = 0}
+\end{center}
+	When this is true the convective derivative of the fluid density is zero:
+	\begin{center}
+		$\frac{D\rho}{Dt} = 0$
+	\end{center}
 \subsection{Pressure in a Fluid}
 \subsection{Flow Dynamics}
 \subsection{Tow-dimensional Flow}

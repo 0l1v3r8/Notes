@@ -1,28 +1,30 @@
-\contentsline {section}{\numberline {1}Calculus}{2}{}%
-\contentsline {subsection}{\numberline {1.1}Differentiation}{2}{}%
-\contentsline {section}{\numberline {2}Series}{3}{}%
-\contentsline {section}{\numberline {3}Multivariable Calculus}{3}{}%
-\contentsline {section}{\numberline {4}Vector Calculus}{4}{}%
-\contentsline {subsection}{\numberline {4.1}Operators}{4}{}%
-\contentsline {subsubsection}{\numberline {4.1.1}Grad}{4}{}%
-\contentsline {subsubsection}{\numberline {4.1.2}Div}{4}{}%
-\contentsline {subsubsection}{\numberline {4.1.3}Curl}{4}{}%
-\contentsline {subsubsection}{\numberline {4.1.4}Laplacian}{4}{}%
-\contentsline {subsection}{\numberline {4.2}Integral Theorems}{4}{}%
-\contentsline {subsubsection}{\numberline {4.2.1}Divergence Theorem}{4}{}%
-\contentsline {subsubsection}{\numberline {4.2.2}Stokes's Theorem}{4}{}%
-\contentsline {section}{\numberline {5}Fluid Mechanics}{5}{}%
-\contentsline {subsection}{\numberline {5.1}Kinematics}{5}{}%
-\contentsline {subsubsection}{\numberline {5.1.1}Coordinates}{5}{}%
-\contentsline {subsubsection}{\numberline {5.1.2}Velocity}{5}{}%
-\contentsline {subsubsection}{\numberline {5.1.3}Stagnation Points}{5}{}%
-\contentsline {subsubsection}{\numberline {5.1.4}Streamlines}{5}{}%
-\contentsline {subsubsection}{\numberline {5.1.5}Particle Paths}{6}{}%
-\contentsline {subsubsection}{\numberline {5.1.6}Steady Flow}{6}{}%
-\contentsline {subsubsection}{\numberline {5.1.7}Convective Derivative}{6}{}%
-\contentsline {subsubsection}{\numberline {5.1.8}Vorticity}{7}{}%
-\contentsline {subsection}{\numberline {5.2}Pressure in a Fluid}{7}{}%
-\contentsline {subsection}{\numberline {5.3}Flow Dynamics}{7}{}%
-\contentsline {subsection}{\numberline {5.4}Tow-dimensional Flow}{7}{}%
-\contentsline {subsection}{\numberline {5.5}Vorticity Dynamics}{7}{}%
-\contentsline {subsection}{\numberline {5.6}Free Surface Waves}{7}{}%
+\contentsline {section}{\numberline {1}Calculus}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Differentiation}{3}{}%
+\contentsline {section}{\numberline {2}Series}{4}{}%
+\contentsline {section}{\numberline {3}Multivariable Calculus}{4}{}%
+\contentsline {section}{\numberline {4}Vector Calculus}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Operators}{5}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Grad}{5}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Div}{5}{}%
+\contentsline {subsubsection}{\numberline {4.1.3}Curl}{5}{}%
+\contentsline {subsubsection}{\numberline {4.1.4}Laplacian}{5}{}%
+\contentsline {subsection}{\numberline {4.2}Integral Theorems}{5}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}Divergence Theorem}{5}{}%
+\contentsline {subsubsection}{\numberline {4.2.2}Stokes's Theorem}{5}{}%
+\contentsline {section}{\numberline {5}Fluid Mechanics}{6}{}%
+\contentsline {subsection}{\numberline {5.1}Kinematics}{6}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}Coordinates}{6}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}Velocity}{6}{}%
+\contentsline {subsubsection}{\numberline {5.1.3}Stagnation Points}{6}{}%
+\contentsline {subsubsection}{\numberline {5.1.4}Streamlines}{6}{}%
+\contentsline {subsubsection}{\numberline {5.1.5}Particle Paths}{7}{}%
+\contentsline {subsubsection}{\numberline {5.1.6}Steady Flow}{7}{}%
+\contentsline {subsubsection}{\numberline {5.1.7}Convective Derivative}{7}{}%
+\contentsline {subsubsection}{\numberline {5.1.8}Vorticity}{8}{}%
+\contentsline {subsubsection}{\numberline {5.1.9}Velocity Potential}{8}{}%
+\contentsline {subsubsection}{\numberline {5.1.10}Incompressible Flow}{8}{}%
+\contentsline {subsection}{\numberline {5.2}Pressure in a Fluid}{8}{}%
+\contentsline {subsection}{\numberline {5.3}Flow Dynamics}{8}{}%
+\contentsline {subsection}{\numberline {5.4}Tow-dimensional Flow}{8}{}%
+\contentsline {subsection}{\numberline {5.5}Vorticity Dynamics}{8}{}%
+\contentsline {subsection}{\numberline {5.6}Free Surface Waves}{8}{}%
