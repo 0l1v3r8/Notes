@@ -101,6 +101,14 @@ Vorticity \underline{$\omega$} is a measure of the local rotation of fluid parti
 \begin{center}
 	\boxed{\underline{\omega} = \underline{0}}
 \end{center}
+\subsubsection{Incompressible Flow}
+\begin{center}
+	\boxed{\nabla \cdot \underline{u} = 0}
+\end{center}
+	When this is true the convective derivative of the fluid density is zero:
+	\begin{center}
+		$\frac{D\rho}{Dt} = 0$
+	\end{center}
 \subsubsection{Velocity Potential}
 For an irrotational flow the velocity can be described as the gradient of a scalar field known as the \textit{Velocity Potential}.
 \begin{center}
@@ -112,14 +120,57 @@ For an irrotational flow the velocity can be described as the gradient of a scal
 	\\
 	$\underline{u} = \nabla\phi$
 \end{center}
-\subsubsection{Incompressible Flow}
+If the flow is also incompressible
 \begin{center}
-	\boxed{\nabla \cdot \underline{u} = 0}
+	$\nabla \cdot \underline{u} = 0$
+	\\
+	$\nabla \cdot (\nabla \phi) = 0$
+	\\
+	Therefore the velocity potential of an irrotational, incompressible flow satisfies Laplace's Equation:
+	\\
+	\boxed{\nabla^2 \phi = 0}
 \end{center}
-	When this is true the convective derivative of the fluid density is zero:
+\subsubsection{Equipotential Surfaces}
+Lines/surfaces of constant $\phi$ are \textit{equipotentials}.
+\\
+	The velocity potential can be considered a surface:
 	\begin{center}
-		$\frac{D\rho}{Dt} = 0$
+		$\phi(x,y,z)=c$
 	\end{center}
+	Let $\underline{a}$ be tangent to the surface, the derivative of $\phi$ in the direction of $\underline{a}$:
+	\\
+	\begin{center}
+		$\underline{a}\cdot\nabla \phi = 0$
+	\end{center}
+	Because the derivative of a constant $c$ is zero: $\nabla \phi$ is normal to the surface.
+	\begin{center}
+		\boxed{\hat{\underline{n}}=\frac{\nabla \phi}{\vert\nabla \phi\vert} }
+	\end{center}
+\subsubsection{The Stream Function}
+Considering incompressible two dimensional flow:
+\begin{center}
+	$\nabla \cdot \underline{u} = 0$
+	\\
+	$\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0$	
+\end{center}
+We can introduce the stream function $\psi (x,y,t)$ such that:
+\begin{center}
+	\boxed{u = \frac{\partial \psi}{\partial y}, v=-\frac{\partial \psi}{\partial x}}
+\end{center}
+This satisfies the previous equations:
+\begin{center}
+	$\frac{\partial^2 \psi}{\partial x \partial y} - \frac{\partial^2 \psi}{\partial y \partial x} = 0$
+\end{center}
+\textbf{Vorticity of an incompressible two dimensional flow:}
+\begin{center}
+	$\underline{\omega} = \nabla \times \underline{u}$
+	\\
+	$\underline{\omega} = \frac{\partial v}{\partial x} - \frac{\partial u}{\partial y}$
+	\\
+	$\underline{\omega} = -\frac{\partial^2 \psi}{\partial^2 x} - \frac{\partial^2 \psi}{\partial^2 y}$
+	\\
+	\boxed{\underline{\omega}  = -\nabla^2\psi}
+\end{center}
 \subsection{Pressure in a Fluid}
 \subsection{Flow Dynamics}
 \subsection{Tow-dimensional Flow}
