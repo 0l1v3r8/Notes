@@ -173,8 +173,99 @@ This satisfies the previous equations:
 \end{center}
 
 \subsection{Pressure in a Fluid}
-\subsubsection{Pressure}
-The force exerted by the surrounding fluid on a body can be calculated:
+\subsubsection{Pressure and Force}
+Let the normal vector $\underline{n}$ be pointing into the fluid.
+\begin{center}
+	$\partial\underline{F} = -\partial F\underline{n}$
+	\\
+	\includegraphics[width=0.3\textwidth]{Images/Pressure}
+\end{center}
+$\partial F$ is the force exerted over a small area $\partial S$
+\\
+\begin{center}
+	$p = \lim \limits_{\partial S \to 0}(\frac{\partial F}{\partial S})$
+	\\
+	\boxed{\underline{F} = -\int \int_{S} p \underline{n} dS }
+\end{center}
+\subsubsection{Equations of State}
+\textbf{Ideal Gas Law}
+\\
+\begin{center}
+	$pV =nRT$
+	\\
+	$\frac{pV}{T} =  nR$
+	\\
+	$V \propto 1/\rho$
+	\\
+	\boxed{\frac{p}{\rho T} = constant}
+\end{center}
+\textbf{Isothermal Gas}
+\\
+For a gas at constant temperature $T$
+\begin{center}
+	Boyle's Law:
+	\\
+	$p \propto \rho$
+	\\
+	\boxed{p\rho^{-1}=p_{0}\rho_{0}^{-1}}
+\end{center}
+\textbf{Adiabatic Gas}
+\\
+ Quick fluctuations in pressure (such as in sound waves) are described by the adiabatic law.
+ \begin{center}
+ 	\boxed{p\rho^{-\gamma} = c}
+ \end{center}
+Where $\gamma$ is the \textit{Polytropic Index}
+\subsubsection{Hydrostatics}
+\begin{center}
+	The force due to the pressure of the fluid
+	\\ 
+	$\underline{F} = -\int \int_{S} p \underline{n} dS $
+	\\
+	Applying the divergence theorem for a scalar:
+	\\
+	$\underline{F} = - \int\int\int_V \nabla p dV$
+	\\
+	Calculating the weight of the fluid region:
+	\\
+	$\underline{W} = \int\int\int_V \rho \underline{g} dV$
+	\\
+	Since the fluid is stationary, the total force on the fluid is zero
+	\\
+	$\underline{W} + \underline{F} = 0$
+	\\
+	$\int\int\int_V \rho \underline{g} dV- \int\int\int_V \nabla p dV = 0$
+	\\
+	$\int\int\int_V (\rho \underline{g} - \nabla p) dV = 0$
+	\\
+	Therefore:
+	\\
+	\boxed{\rho \underline{g} = \nabla p}
+	\\
+	$\underline{g} = -g\hat{\underline{k}}$
+	\\
+	$\frac{\partial p}{\partial z} = -\rho g$
+	\\
+	Integrating gives:
+	\\
+	\boxed{p = p_a - \rho g z}
+\end{center}
+\subsubsection{Buoyancy}
+Buoyancy is the force exerted on a submerged body due to the pressure of the surrounding static fluid.
+\begin{center}
+	$\underline{B} = -\int \int_{S} p \underline{n} dS$
+	\\
+	Applying the divergence theorem for a scalar:
+	\\
+	$\underline{B} = - \int\int\int_V \nabla p dV$
+	\\
+	$\nabla p = \rho \underline{g}$, $\underline{g} = -g\hat{\underline{k}}$
+	\\
+	$\underline{B} = \hat{\underline{k}} g \int \int \int_V \rho dV$
+	\\
+	\boxed{\underline{B} = \rho V g \hat{\underline{k}} = m_w g \hat{\underline{k}}}
+\end{center}
+\textbf{Archimedes’ Principle} – the buoyancy force on a body is equal in magnitude to the weight of fluid that is displaced by the body.
 \subsection{Flow Dynamics}
 \subsection{Tow-dimensional Flow}
 \subsection{Vorticity Dynamics}

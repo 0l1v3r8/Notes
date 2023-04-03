@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.28)  2 APR 2023 23:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.28)  3 APR 2023 22:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -712,7 +712,7 @@ LaTeX Font Warning: Command \boldmath invalid in math mode on input line 12.
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 12.
 
 
-<Images/Streamline.png, id=218, 197.73875pt x 124.96687pt>
+<Images/Streamline.png, id=233, 197.73875pt x 124.96687pt>
 File: Images/Streamline.png Graphic file (type png)
 <use Images/Streamline.png>
 Package pdftex.def Info: Images/Streamline.png  used on input line 26.
@@ -736,22 +736,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
-[8]) [9] [10
+[8]
+<Images/Pressure.png, id=255, 225.84375pt x 197.23688pt>
+File: Images/Pressure.png Graphic file (type png)
+<use Images/Pressure.png>
+Package pdftex.def Info: Images/Pressure.png  used on input line 181.
+(pdftex.def)             Requested size: 103.50105pt x 90.39297pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
+
+ []
+
+[9 <./Images/Pressure.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
+
+ []
+
+[10]) [11] [12
 
 
 ] (Mathematics_main.aux (Calculus.aux) (Vector_calculus.aux)
 (Fluid_mechanics.aux))
 Package rerunfilecheck Info: File `Mathematics_main.out' has not changed.
-(rerunfilecheck)             Checksum: 17C4EA33285A3A09FBC76F6BB2187AA5;4938.
+(rerunfilecheck)             Checksum: 67B17CE67476DD7CE6DD68774B4772D8;5394.
  ) 
 Here is how much of TeX's memory you used:
- 19452 strings out of 476334
- 372749 string characters out of 5787971
+ 19471 strings out of 476334
+ 373132 string characters out of 5787971
  1866382 words of memory out of 5000000
- 39502 multiletter control sequences out of 15000+600000
+ 39515 multiletter control sequences out of 15000+600000
  518635 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,13n,104p,424b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,13n,104p,424b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -765,10 +781,11 @@ ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users
 :/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7
 .pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmti10.pfb>
-Output written on Mathematics_main.pdf (10 pages, 214341 bytes).
+amsfonts/cm/cmsy7.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmti10.pfb>
+Output written on Mathematics_main.pdf (12 pages, 250404 bytes).
 PDF statistics:
- 313 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 314 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 343 words of extra memory for PDF output out of 10000 (max. 10000000)
 

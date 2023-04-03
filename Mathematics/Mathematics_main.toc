@@ -29,9 +29,12 @@
 \contentsline {subsubsection}{\numberline {8.1.11}Equipotential Surfaces}{8}{subsubsection.8.1.11}%
 \contentsline {subsubsection}{\numberline {8.1.12}The Stream Function}{9}{subsubsection.8.1.12}%
 \contentsline {subsection}{\numberline {8.2}Pressure in a Fluid}{9}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Pressure}{9}{subsubsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.3}Flow Dynamics}{9}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Tow-dimensional Flow}{9}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Vorticity Dynamics}{9}{subsection.8.5}%
-\contentsline {subsection}{\numberline {8.6}Free Surface Waves}{9}{subsection.8.6}%
-\contentsline {section}{\numberline {9}Numerical Methods}{10}{section.9}%
+\contentsline {subsubsection}{\numberline {8.2.1}Pressure and Force}{9}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Equations of State}{10}{subsubsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Hydrostatics}{10}{subsubsection.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.4}Buoyancy}{11}{subsubsection.8.2.4}%
+\contentsline {subsection}{\numberline {8.3}Flow Dynamics}{11}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Tow-dimensional Flow}{11}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Vorticity Dynamics}{11}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Free Surface Waves}{11}{subsection.8.6}%
+\contentsline {section}{\numberline {9}Numerical Methods}{12}{section.9}%
