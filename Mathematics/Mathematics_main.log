@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.28)  3 APR 2023 22:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.28)  4 APR 2023 14:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -712,7 +712,7 @@ LaTeX Font Warning: Command \boldmath invalid in math mode on input line 12.
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 12.
 
 
-<Images/Streamline.png, id=233, 197.73875pt x 124.96687pt>
+<Images/Streamline.png, id=238, 197.73875pt x 124.96687pt>
 File: Images/Streamline.png Graphic file (type png)
 <use Images/Streamline.png>
 Package pdftex.def Info: Images/Streamline.png  used on input line 26.
@@ -737,7 +737,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--142
  []
 
 [8]
-<Images/Pressure.png, id=255, 225.84375pt x 197.23688pt>
+<Images/Pressure.png, id=260, 225.84375pt x 197.23688pt>
 File: Images/Pressure.png Graphic file (type png)
 <use Images/Pressure.png>
 Package pdftex.def Info: Images/Pressure.png  used on input line 181.
@@ -752,19 +752,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
-[10]) [11] [12
+[10]
+<Images/Buoyancy.png, id=272, 200.75pt x 206.7725pt>
+File: Images/Buoyancy.png Graphic file (type png)
+<use Images/Buoyancy.png>
+Package pdftex.def Info: Images/Buoyancy.png  used on input line 270.
+(pdftex.def)             Requested size: 86.25pt x 88.83786pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--290
+
+ []
+
+[11 <./Images/Buoyancy.png>]) [12] [13
 
 
-] (Mathematics_main.aux (Calculus.aux) (Vector_calculus.aux)
-(Fluid_mechanics.aux))
+] (Mathematics_main.aux (Calculus.aux)
+(Vector_calculus.aux) (Fluid_mechanics.aux))
 Package rerunfilecheck Info: File `Mathematics_main.out' has not changed.
-(rerunfilecheck)             Checksum: 67B17CE67476DD7CE6DD68774B4772D8;5394.
+(rerunfilecheck)             Checksum: E9B321DD0EF91BAE74108E37DC681081;5624.
  ) 
 Here is how much of TeX's memory you used:
- 19471 strings out of 476334
- 373132 string characters out of 5787971
+ 19482 strings out of 476334
+ 373369 string characters out of 5787971
  1866382 words of memory out of 5000000
- 39515 multiletter control sequences out of 15000+600000
+ 39523 multiletter control sequences out of 15000+600000
  518635 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,13n,104p,424b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -783,9 +794,9 @@ ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users
 cm/cmsy10.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy7.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on Mathematics_main.pdf (12 pages, 250404 bytes).
+Output written on Mathematics_main.pdf (13 pages, 262954 bytes).
 PDF statistics:
- 343 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 343 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 356 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 356 words of extra memory for PDF output out of 10000 (max. 10000000)
 
