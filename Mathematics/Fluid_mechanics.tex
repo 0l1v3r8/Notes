@@ -290,7 +290,7 @@ A floating body is stable if its centre of gravity is below its centre of buoyan
 \subsubsection{Oscillation of a Floating Body}
 When a floating body is submerged below its equilibrium depth $d$ it begins to oscillate.
 \begin{center}
-	Consider a cylindrical body with mass $m$, circular area $A$, equlibrium depth $d$:
+	Consider a cylindrical body with mass $m$, circular area $A$, equilibrium depth $d$:
 	\newline
 	\\
 	$mz''(t) = \rho_w g (d-z(t))A- mg$
@@ -310,6 +310,38 @@ When a floating body is submerged below its equilibrium depth $d$ it begins to o
 	$z(t) = -z_0 \cos (\sqrt{\frac{g}{d}} t)$
 \end{center}
 \subsection{Flow Dynamics}
+\subsubsection{Reynolds Transport Theorem}
+\begin{tabular}{c}
+	$\frac{d}{dt} \int_{\Omega(t)} F(\underline{x}, t) dV= \lim\limits_{\Delta t \to 0} [\int_{\Omega(t + \Delta t)} F(\underline{x},t+\Delta t) dV - \int_{\Omega(t)} F(\underline{x}, t)dV]$
+	\\
+	\\
+	Using the Taylor series expansion:
+	\\
+	\\
+	$\frac{d}{dt} \int_{\Omega(t)} F(\underline{x}, t) dV=\lim\limits_{\Delta t \to 0} [\int_{\Omega(t + \Delta t)} F(\underline{x}, t)+ \frac{\partial F}{\partial t}(\underline{x}, t)\Delta t + O(\Delta t)^2dV - \int_{\Omega(t)} F(\underline{x}, t)dV]$
+	\\
+	\\
+	Let $\Delta \Omega$ be the difference between the regions $\Omega(t)$ and $\Omega(t + \Delta t)$:
+	\\
+	\\
+	$\frac{d}{dt} \int_{\Omega(t)} F(\underline{x}, t) dV= \lim\limits_{\Delta t \to 0} [\int_{\Delta\Omega} F(\underline{x},t) dV + \int_{\Omega(t + \Delta t)} \frac{\partial F}{\partial t}(\underline{x}, t)\Delta t + O(\Delta t)^2dV]$
+	\\
+	\\
+	Letting $U_n$ be the normal velocity to the boundary $\partial \Omega$
+	\\
+	\\
+	$\frac{d}{dt} \int_{\Omega(t)} F(\underline{x}, t) dV= \lim\limits_{\Delta t \to 0} [\int_{\partial\Omega} F(\underline{x},t) U_n(\underline{x},t)\Delta t dS] + \lim\limits_{\Delta t \to \infty }[\int_{\Omega(t + \Delta t)} \frac{\partial F}{\partial t}(\underline{x}, t)\Delta tdV]$
+	\\
+	\\
+	\boxed{\frac{d}{dt} \int_{\Omega(t)} F(\underline{x}, t) dV= \int_{\partial\Omega} F(\underline{x},t) U_n(\underline{x},t)dS + \int_{\Omega(t)} \frac{\partial F}{\partial t}(\underline{x}, t)dV}
+\end{tabular}
+\newline
+\\
+\textbf{Leibniz's Integral Rule}: The rule can be derived from considering a one dimensional case of \textit{Reynold's Transport Theorem}. 
+\begin{center}
+	\boxed{\frac{d}{dt}\int^{b(t)}_{a(t)} F(\underline{x},t) dx = \int^{b(t)}_{a(t)}\frac{\partial F}{\partial t}(\underline{x},t)dx + F(b(t),t)\frac{db}{dt} - F(a(t),t)\frac{da}{dt}}
+\end{center}
+\subsubsection{Conservation of Mass}
 \subsection{Tow-dimensional Flow}
 \subsection{Vorticity Dynamics}
 \subsection{Free Surface Waves}
