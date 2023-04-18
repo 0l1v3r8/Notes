@@ -26,18 +26,20 @@
 \contentsline {subsubsection}{\numberline {8.1.8}Vorticity}{8}{subsubsection.8.1.8}%
 \contentsline {subsubsection}{\numberline {8.1.9}Incompressible Flow}{8}{subsubsection.8.1.9}%
 \contentsline {subsubsection}{\numberline {8.1.10}Velocity Potential}{8}{subsubsection.8.1.10}%
-\contentsline {subsubsection}{\numberline {8.1.11}Equipotential Surfaces}{8}{subsubsection.8.1.11}%
+\contentsline {subsubsection}{\numberline {8.1.11}Equipotential Surfaces}{9}{subsubsection.8.1.11}%
 \contentsline {subsubsection}{\numberline {8.1.12}The Stream Function}{9}{subsubsection.8.1.12}%
 \contentsline {subsection}{\numberline {8.2}Pressure in a Fluid}{9}{subsection.8.2}%
 \contentsline {subsubsection}{\numberline {8.2.1}Pressure and Force}{9}{subsubsection.8.2.1}%
 \contentsline {subsubsection}{\numberline {8.2.2}Equations of State}{10}{subsubsection.8.2.2}%
 \contentsline {subsubsection}{\numberline {8.2.3}Hydrostatics}{10}{subsubsection.8.2.3}%
 \contentsline {subsubsection}{\numberline {8.2.4}Buoyancy}{11}{subsubsection.8.2.4}%
-\contentsline {subsubsection}{\numberline {8.2.5}Oscillation of a Floating Body}{11}{subsubsection.8.2.5}%
+\contentsline {subsubsection}{\numberline {8.2.5}Oscillation of a Floating Body}{12}{subsubsection.8.2.5}%
 \contentsline {subsection}{\numberline {8.3}Flow Dynamics}{12}{subsection.8.3}%
 \contentsline {subsubsection}{\numberline {8.3.1}Reynolds Transport Theorem}{12}{subsubsection.8.3.1}%
-\contentsline {subsubsection}{\numberline {8.3.2}Conservation of Mass}{12}{subsubsection.8.3.2}%
-\contentsline {subsection}{\numberline {8.4}Tow-dimensional Flow}{12}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Vorticity Dynamics}{12}{subsection.8.5}%
-\contentsline {subsection}{\numberline {8.6}Free Surface Waves}{12}{subsection.8.6}%
-\contentsline {section}{\numberline {9}Numerical Methods}{13}{section.9}%
+\contentsline {subsubsection}{\numberline {8.3.2}Conservation of Mass}{13}{subsubsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.4}Tow-dimensional Flow}{13}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Vorticity Dynamics}{13}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Free Surface Waves}{13}{subsection.8.6}%
+\contentsline {subsubsection}{\numberline {8.6.1}Periodic Gravity Waves}{13}{subsubsection.8.6.1}%
+\contentsline {subsubsection}{\numberline {8.6.2}Boundary Conditions}{13}{subsubsection.8.6.2}%
+\contentsline {section}{\numberline {9}Numerical Methods}{15}{section.9}%

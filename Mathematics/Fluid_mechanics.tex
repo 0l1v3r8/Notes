@@ -129,6 +129,10 @@ If the flow is also incompressible
 	Therefore the velocity potential of an irrotational, incompressible flow satisfies Laplace's Equation:
 	\\
 	\boxed{\nabla^2 \phi = 0}
+	\\
+	Expanded to:
+	\\
+	$\frac{\partial^2 \phi}{\partial x^2}+\frac{\partial^2 \phi}{\partial y^2}+\frac{\partial^2 \phi}{\partial z^2} = 0$
 \end{center}
 \subsubsection{Equipotential Surfaces}
 Lines/surfaces of constant $\phi$ are \textit{equipotentials}.
@@ -345,3 +349,62 @@ When a floating body is submerged below its equilibrium depth $d$ it begins to o
 \subsection{Tow-dimensional Flow}
 \subsection{Vorticity Dynamics}
 \subsection{Free Surface Waves}
+\subsubsection{Periodic Gravity Waves}
+\begin{center}
+	The free surface of the liquid is described by $z = \eta (x,t)$, $z=0$ is the undisturbed surface level, $z=-h$ is the depth of the liquid.
+	\\
+	\begin{tabular}{cc}
+		\includegraphics[width=0.5\textwidth]{"Images/Gravity Waves2.png"} & \includegraphics[width=0.5\textwidth]{"Images/Gravity Waves.png"}
+	\end{tabular}
+	\\
+	$\eta$ is assumed to take the form:
+	\\
+	\boxed{\eta(x,t) = a\sin(kx-\omega t)}
+	\\
+	$k$ is the wave number, $a$ is the amplitude, $\omega$ is the angular frequency, $\lambda$ is the wavelength.
+	\\
+	\boxed{k = \frac{2 \pi}{\lambda} }
+\end{center}
+\begin{center}
+	We also assume the liquid is \textit{incompressible} and \textit{irrotational}
+	\\
+	$\nabla \times \underline{u} = 0$ and $\nabla \cdot \underline{u} = 0$
+	\\
+	Therefore
+	\\
+	$\underline{u} = \nabla \phi$ and $\nabla^2 \phi = 0$
+\end{center}
+\subsubsection{Boundary Conditions}
+\textbf{No Normal Flow along the bottom} at $z=0$
+\begin{center}
+	$\underline{u} \cdot \underline{n}$
+	\\
+	$ = \underline{u} \cdot \hat{\underline{k}}$
+	\\
+	$= \nabla \phi \cdot \hat{\underline{k}} $
+	\\
+	$= 0$
+	\\
+	Hence:
+	\\
+	\boxed{ \frac{\partial \phi}{\partial z} = 0 \text{ at }  z=0}
+	\\
+\end{center}
+\textbf{Dynamic Boundary Condition} at $z=\eta(x,t)$
+\begin{center}
+	Fluid pressure at the free surface = Atmospheric pressure $p_0$
+	\\
+	Bernoulli's Equation relates $p_0$ and $\phi$:
+	\\
+	$p_0 + \rho (\frac{\partial \phi}{\partial t} + \frac{1}{2} \underline{u}^2 + gz) = f(t)$
+	\\
+	$\frac{\partial \phi}{\partial t} + \frac{1}{2} \underline{u}^2 + gz = \frac{f(t) - p_0}{\rho} = 0$
+	\\
+	\boxed{\frac{\partial \phi}{\partial t} + \frac{1}{2}  \lvert\nabla\phi\lvert^2 + g\eta(x,t) = 0 \text{ at } z=\eta(x,t)}
+\end{center}
+\textbf{Kinematic Boundary Condition} at $z = \eta(x,t)$
+\begin{center}
+	Fluid particles can not leave the free surface thus the surface must move with the fluid.
+	\\
+	
+\end{center}
