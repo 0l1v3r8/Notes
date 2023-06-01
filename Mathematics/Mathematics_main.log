@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.28)  9 APR 2023 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.28)  1 JUN 2023 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -585,8 +585,8 @@ tex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count303
 \l__pdf_internal_box=\box64
-) (Mathematics_main.aux (Calculus.aux) (Vector_calculus.aux)
-(Fluid_mechanics.aux))
+) (Mathematics_main.aux (Calculus/Calculus.aux)
+(Vector Calculus/Vector_calculus.aux) (Fluid Mechanics/Fluid_mechanics.aux))
 \openout1 = `Mathematics_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -646,23 +646,24 @@ Package hyperref Info: Link coloring OFF on input line 9.
 \openout5 = `Mathematics_main.toc'.
 
  [2]
-\openout2 = `Calculus.aux'.
+\openout2 = `Calculus/Calculus.aux'.
 
 
-(Calculus.tex) [3
+(Calculus/Calculus.tex) [3
 
 ] [4
 
 
 ]
-\openout2 = `Vector_calculus.aux'.
+\openout2 = `"Vector Calculus/Vector_calculus.aux"'.
 
- (Vector_calculus.tex) [5
+ (Vector Calculus/Vector_calculus.tex) [5
 
 ]
-\openout2 = `Fluid_mechanics.aux'.
+\openout2 = `"Fluid Mechanics/Fluid_mechanics.aux"'.
 
- (Fluid_mechanics.tex
+
+(Fluid Mechanics/Fluid_mechanics.tex
 
 LaTeX Font Warning: Command \boldmath invalid in math mode on input line 4.
 
@@ -793,19 +794,19 @@ Overfull \hbox (24.00003pt too wide) in paragraph at lines 356--359
 
 
 ]
-(Mathematics_main.aux (Calculus.aux) (Vector_calculus.aux) (Fluid_mechanics.aux
-))
+(Mathematics_main.aux (Calculus/Calculus.aux)
+(Vector Calculus/Vector_calculus.aux) (Fluid Mechanics/Fluid_mechanics.aux))
 Package rerunfilecheck Info: File `Mathematics_main.out' has not changed.
 (rerunfilecheck)             Checksum: 28E71C0E5ADAC4639D4AF84BA07A00A3;6352.
  ) 
 Here is how much of TeX's memory you used:
- 19508 strings out of 476334
- 374015 string characters out of 5787971
+ 19514 strings out of 476334
+ 375430 string characters out of 5787971
  1866382 words of memory out of 5000000
  39541 multiletter control sequences out of 15000+600000
  518635 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,13n,104p,424b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,13n,104p,440b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -821,7 +822,7 @@ ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users
 cm/cmsy10.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy7.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on Mathematics_main.pdf (15 pages, 317950 bytes).
+Output written on Mathematics_main.pdf (15 pages, 317985 bytes).
 PDF statistics:
  389 PDF objects out of 1000 (max. 8388607)
  62 named destinations out of 1000 (max. 500000)
