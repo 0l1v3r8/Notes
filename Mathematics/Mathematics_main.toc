@@ -1,45 +1,48 @@
-\contentsline {section}{\numberline {1}Calculus}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Differentiation}{3}{subsection.1.1}%
-\contentsline {section}{\numberline {2}Series}{4}{section.2}%
-\contentsline {section}{\numberline {3}Multivariable Calculus}{4}{section.3}%
-\contentsline {section}{\numberline {4}Linear Algebra}{4}{section.4}%
-\contentsline {section}{\numberline {5}Differential Equations}{4}{section.5}%
-\contentsline {section}{\numberline {6}Partial Differential Equations}{4}{section.6}%
-\contentsline {section}{\numberline {7}Vector Calculus}{5}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Operators}{5}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}Grad}{5}{subsubsection.7.1.1}%
-\contentsline {subsubsection}{\numberline {7.1.2}Div}{5}{subsubsection.7.1.2}%
-\contentsline {subsubsection}{\numberline {7.1.3}Curl}{5}{subsubsection.7.1.3}%
-\contentsline {subsubsection}{\numberline {7.1.4}Laplacian}{5}{subsubsection.7.1.4}%
-\contentsline {subsection}{\numberline {7.2}Integral Theorems}{5}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}Divergence Theorem}{5}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}Stokes's Theorem}{5}{subsubsection.7.2.2}%
-\contentsline {section}{\numberline {8}Fluid Mechanics}{6}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Kinematics}{6}{subsection.8.1}%
-\contentsline {subsubsection}{\numberline {8.1.1}Coordinates}{6}{subsubsection.8.1.1}%
-\contentsline {subsubsection}{\numberline {8.1.2}Velocity}{6}{subsubsection.8.1.2}%
-\contentsline {subsubsection}{\numberline {8.1.3}Stagnation Points}{6}{subsubsection.8.1.3}%
-\contentsline {subsubsection}{\numberline {8.1.4}Streamlines}{6}{subsubsection.8.1.4}%
-\contentsline {subsubsection}{\numberline {8.1.5}Particle Paths}{7}{subsubsection.8.1.5}%
-\contentsline {subsubsection}{\numberline {8.1.6}Steady Flow}{7}{subsubsection.8.1.6}%
-\contentsline {subsubsection}{\numberline {8.1.7}Convective Derivative}{7}{subsubsection.8.1.7}%
-\contentsline {subsubsection}{\numberline {8.1.8}Vorticity}{8}{subsubsection.8.1.8}%
-\contentsline {subsubsection}{\numberline {8.1.9}Incompressible Flow}{8}{subsubsection.8.1.9}%
-\contentsline {subsubsection}{\numberline {8.1.10}Velocity Potential}{8}{subsubsection.8.1.10}%
-\contentsline {subsubsection}{\numberline {8.1.11}Equipotential Surfaces}{9}{subsubsection.8.1.11}%
-\contentsline {subsubsection}{\numberline {8.1.12}The Stream Function}{9}{subsubsection.8.1.12}%
-\contentsline {subsection}{\numberline {8.2}Pressure in a Fluid}{9}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Pressure and Force}{9}{subsubsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}Equations of State}{10}{subsubsection.8.2.2}%
-\contentsline {subsubsection}{\numberline {8.2.3}Hydrostatics}{10}{subsubsection.8.2.3}%
-\contentsline {subsubsection}{\numberline {8.2.4}Buoyancy}{11}{subsubsection.8.2.4}%
-\contentsline {subsubsection}{\numberline {8.2.5}Oscillation of a Floating Body}{12}{subsubsection.8.2.5}%
-\contentsline {subsection}{\numberline {8.3}Flow Dynamics}{12}{subsection.8.3}%
-\contentsline {subsubsection}{\numberline {8.3.1}Reynolds Transport Theorem}{12}{subsubsection.8.3.1}%
-\contentsline {subsubsection}{\numberline {8.3.2}Conservation of Mass}{13}{subsubsection.8.3.2}%
-\contentsline {subsection}{\numberline {8.4}Tow-dimensional Flow}{13}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Vorticity Dynamics}{13}{subsection.8.5}%
-\contentsline {subsection}{\numberline {8.6}Free Surface Waves}{13}{subsection.8.6}%
-\contentsline {subsubsection}{\numberline {8.6.1}Periodic Gravity Waves}{13}{subsubsection.8.6.1}%
-\contentsline {subsubsection}{\numberline {8.6.2}Boundary Conditions}{13}{subsubsection.8.6.2}%
-\contentsline {section}{\numberline {9}Numerical Methods}{15}{section.9}%
+\contentsline {chapter}{\numberline {1}Calculus}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Calculus}{6}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Differentiation}{6}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Series}{7}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Multivariable Calculus}{7}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Linear Algebra}{7}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Differential Equations}{7}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Partial Differential Equations}{7}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Vector Calculus}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Vector Calculus}{10}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Operators}{10}{subsection.2.1.1}%
+\contentsline {subsubsection}{Grad}{10}{section*.2}%
+\contentsline {subsubsection}{Div}{10}{section*.3}%
+\contentsline {subsubsection}{Curl}{10}{section*.4}%
+\contentsline {subsubsection}{Laplacian}{10}{section*.5}%
+\contentsline {subsection}{\numberline {2.1.2}Integral Theorems}{10}{subsection.2.1.2}%
+\contentsline {subsubsection}{Divergence Theorem}{10}{section*.6}%
+\contentsline {subsubsection}{Stokes's Theorem}{10}{section*.7}%
+\contentsline {chapter}{\numberline {3}Fluid Mechanics}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Fluid Mechanics}{12}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Kinematics}{12}{subsection.3.1.1}%
+\contentsline {subsubsection}{Coordinates}{12}{section*.8}%
+\contentsline {subsubsection}{Velocity}{12}{section*.9}%
+\contentsline {subsubsection}{Stagnation Points}{12}{section*.10}%
+\contentsline {subsubsection}{Streamlines}{12}{section*.11}%
+\contentsline {subsubsection}{Particle Paths}{13}{section*.12}%
+\contentsline {subsubsection}{Steady Flow}{13}{section*.13}%
+\contentsline {subsubsection}{Convective Derivative}{13}{section*.14}%
+\contentsline {subsubsection}{Vorticity}{14}{section*.15}%
+\contentsline {subsubsection}{Incompressible Flow}{14}{section*.16}%
+\contentsline {subsubsection}{Velocity Potential}{14}{section*.17}%
+\contentsline {subsubsection}{Equipotential Surfaces}{15}{section*.18}%
+\contentsline {subsubsection}{The Stream Function}{15}{section*.19}%
+\contentsline {subsection}{\numberline {3.1.2}Pressure in a Fluid}{15}{subsection.3.1.2}%
+\contentsline {subsubsection}{Pressure and Force}{15}{section*.20}%
+\contentsline {subsubsection}{Equations of State}{16}{section*.21}%
+\contentsline {subsubsection}{Hydrostatics}{16}{section*.22}%
+\contentsline {subsubsection}{Buoyancy}{17}{section*.23}%
+\contentsline {subsubsection}{Oscillation of a Floating Body}{18}{section*.24}%
+\contentsline {subsection}{\numberline {3.1.3}Flow Dynamics}{18}{subsection.3.1.3}%
+\contentsline {subsubsection}{Reynolds Transport Theorem}{18}{section*.25}%
+\contentsline {subsubsection}{Conservation of Mass}{19}{section*.26}%
+\contentsline {subsection}{\numberline {3.1.4}Tow-dimensional Flow}{19}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Vorticity Dynamics}{19}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}Free Surface Waves}{19}{subsection.3.1.6}%
+\contentsline {subsubsection}{Periodic Gravity Waves}{19}{section*.27}%
+\contentsline {subsubsection}{Boundary Conditions}{19}{section*.28}%
+\contentsline {section}{\numberline {3.2}Numerical Methods}{21}{section.3.2}%
