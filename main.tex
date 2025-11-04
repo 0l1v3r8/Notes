@@ -1,0 +1,28 @@
+\documentclass{book}
+
+% --- Font: Lato ---
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato} % Set Lato as the default font
+
+% --- Other Essential Packages ---
+\usepackage{amsmath}    % For math
+\usepackage{graphicx}   % For images
+\usepackage{inputenc}   % For input encoding
+\usepackage[english]{babel}
+
+% Use \includeonly to compile only specific chapters for faster testing
+%\includeonly{Chapter01/Chapter01} 
+
+\begin{document}
+
+\title{Notes}
+\author{Oliver Brady}
+\maketitle
+
+\tableofcontents
+
+% --- Document Content ---
+% Include each chapter using the \include command
+\include{Machine Learning/machine_learning} 
+
+\end{document}
