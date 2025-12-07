@@ -1,4 +1,12 @@
-\documentclass{book}
+\documentclass[]{book}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{musixtex}       % Complete music typesetting
+
+\usepackage[
+    margin=0.75in]{geometry}
+\pagecolor{orange!17.5!white}
 
 % --- Font: Lato ---
 \usepackage[T1]{fontenc}
@@ -8,22 +16,53 @@
 \usepackage{amsmath}    % For math
 \usepackage{graphicx}   % For images
 \usepackage{inputenc}   % For input encoding
-\usepackage[english]{babel}
+\definecolor{blue}{rgb}{0.6, 0.8, 1}
+\definecolor{green}{rgb}{0.6, 1, 0.4}
+\usepackage{xcolor}
+\usepackage{soul}
+
 
 % Use \includeonly to compile only specific chapters for faster testing
 %\includeonly{Chapter01/Chapter01} 
 
 \begin{document}
 
-\title{Notes}
+\title{Notes: An amalgamation of all things interesting}
 \author{Oliver Brady}
 \maketitle
 
 \tableofcontents
 
-% --- Document Content ---
-% Include each chapter using the \include command
-\include{Machine Learning/machine_learning}
+% --- Grouped Each Chapter ---
+\chapter*{Colour Key and Notation}
+I am a simple human in a highly stimulating modern world- most of the mathematics notes and textbooks I have seen simply cannot compete with the level of sensory stimulation we are used to. However I have decided *colour* is an necesseary addition to any set of useful notes.
+
+
+{\sethlcolor{green} 
+\hl{This text is highlighted with a custom light blue colour.}
+} % The color change is restricted to this group
+{\sethlcolor{blue} 
+\hl{This text is highlighted with a custom light blue colour.}
+} % The color change is restricted to this group
+
+\hl{This text returns to the default yellow highlight.}
+\include{Background/background}
+\include{Numerics/numerics}
+%-------------------------
+\include{Probability/probability}
 \include{Statistics/statistics}
+\include{Machine Learning/machine_learning}
+%-------------------------
+\include{Fluids/fluids}
+\include{Envrionment/Meteorology/meteorology}
+\include{Envrionment/Oceanography/oceanography}
+\include{Envrionment/Hydrology/hydrology}
+\include{Music/music}
+%--------------------------
+\include{Practical Skills}
+
+
+
+
 
 \end{document}
